@@ -7,9 +7,10 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = "G:\\SeleniumCucumberWorkSpace\\FreeCRMBDDFrameWork\\src\\main\\java\\Features\\login.feature"
+		features = "G:\\git\\Senthil-Cucumber-Project\\FreeCRMBDDFrameWork\\src\\main\\java\\Features\\login.feature"
 		,glue={"stepDefinitions"},
-		format = {"pretty","html:test-output"}
+		format = {"pretty","html:test-output"},
+		dryRun = true
 		
 		)
 

@@ -1,4 +1,4 @@
-package Runner_DataDrivenWithoutExamples;
+package Runner;
 
 import org.junit.runner.RunWith;
 
