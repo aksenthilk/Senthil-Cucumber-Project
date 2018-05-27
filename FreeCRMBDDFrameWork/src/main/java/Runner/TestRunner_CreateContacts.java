@@ -11,7 +11,7 @@ import cucumber.api.junit.Cucumber;
 		,glue={"stepDefinitions_DataDrivenWithExamples2"},
 		format = {"pretty","html:test-output"},
 		monochrome = true,
-		dryRun = true,
+		dryRun = false,
 		strict = true
 		
 		)
